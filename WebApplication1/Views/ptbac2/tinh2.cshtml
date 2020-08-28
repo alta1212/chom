@@ -1,0 +1,30 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ptbac2</title>
+</head>
+<body>
+    pt bậc 2
+    <form action="/ptbac2/ptbac2" method="post">
+        <label>Số a:</label><br>
+        <input name="so1" type="text" id="so1"><br>
+
+        <label>Số b:</label><br>
+        <input name="so2" type="text" id="so2"><br><br>
+
+        <label>Số c:</label><br>
+        <input name="so3" type="text" id="so3"><br><br>
+
+        <input type="submit" value="tinh">
+
+        kết quả : @ViewBag.kq
+    </form>
+</body>
+</html>
